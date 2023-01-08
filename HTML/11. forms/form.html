@@ -1,0 +1,48 @@
+<form method="post">
+First Name : <input name="fName" autofocus tabindex="1" />
+<br>
+Last Name : <input type="text" name="lName" tabindex="2" />
+<br/>
+	Password : <input type="password" name="pwd" tabindex="3" >
+<br>
+	<input type="checkbox" name="html" value="HTML,CSS,JS" tabindex="4">HTML,CSS,JS
+	<input type="checkbox" name="php" value="PHP,MySQL" tabindex="5" >PHP,MySQL
+	<input type="checkbox" name="wp" value="Wordpress" tabindex="6" >Wordpress
+<br>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<br><br>
+<input type="number">
+<br><br>
+<input type="date">
+<br><br>
+<input type="email" name="email">
+<br><br>
+<input type="file" multiple>
+<br><br>
+<input type="tel">
+<br><br>
+<input type="password">
+<br><br>
+<input type="hidden" value="BCS">
+<br><br>
+<select name="country" >
+	<option value="India">India</option>
+	<option value="India">Australia</option>
+	<option value="India">USA</option>
+	<option value="India">Europe</option>
+</select>
+<br><br>
+<textarea cols="16" rows="4" name="msg"></textarea>
+<br><br>
+	<input type="button" name="btn" value="Click Me">
+<br><br>
+<input type="reset">
+<br><br>
+<input type="submit" name="sub" >
+	<button>Send</button>
+</form>
+<?php
+
+echo $_POST['fname'];
+?>
