@@ -1,5 +1,5 @@
 # HTML-5
-## [HTML-5](HTML-5)
+## [HTML](HTML-5)
 
 -HTML is the standard markup language for Web pages<br>
 -Define content an structure of website<br>
