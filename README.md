@@ -6,5 +6,8 @@
   T->Text<br>
   M->Markup<br>
   L->Language
+  <br>
+  <br>
+  1.[HTML Format](https://github.com/sakshimunde18/HTML-5/blob/main/HTML/0.%20HTML%20Format/html%20format.html)
 
  
